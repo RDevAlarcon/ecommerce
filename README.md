@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Aurelia Atelier · Demo Ecommerce
 
-## Getting Started
+Muestra interactiva creada para presentar a potenciales clientes una boutique digital elegante y confiable. El proyecto se construyó con la pila solicitada: **Next.js 15 (App Router)**, **React 19**, **Turbopack**, **TypeScript 5** y **Tailwind CSS 4** (vía `@tailwindcss/postcss`). No requiere backend ni base de datos; los contenidos se cargan desde estructuras tipadas en `src/lib/catalog.ts` para personalizar rápidamente textos, precios e imágenes.
 
-First, run the development server:
+### Scripts
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install         # instala dependencias
+npm run dev         # levanta el entorno local con Turbopack
+npm run build       # genera la build de producción
+npm run start       # sirve la build generada
+npm run lint        # ejecuta ESLint 9 con eslint-config-next
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Estructura relevante
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/app/page.tsx`: layout principal de la vitrina digital (hero, colecciones, catálogo, testimonios y CTA).
+- `src/lib/catalog.ts`: datos tipados de colecciones, productos y testimonios listos para editar.
+- `src/app/globals.css`: estilos base y gradientes que definen el look & feel.
+- `next.config.ts`: dominios externos de imágenes (Unsplash) para las visuales de referencia.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personalización
 
-## Learn More
+1. Cambia textos y métricas en `src/app/page.tsx` para alinear la narrativa con tu marca.
+2. Actualiza imágenes o colores en `src/lib/catalog.ts`; cualquier link público compatible con Next Image funcionará.
+3. Ajusta tipografías o gradientes globales en `src/app/globals.css` según tu identidad visual.
+4. Ejecuta `npm run build && npm run start` para validar la versión optimizada antes de presentar.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este repositorio está listo para desplegar en Vercel o cualquier plataforma compatible con Next.js 15. Al no depender de backend puedes compartirlo como prototipo funcional o adaptarlo rápidamente a futuros proyectos personalizados.
