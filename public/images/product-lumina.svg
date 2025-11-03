@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="540" viewBox="0 0 720 540">
+  <defs>
+    <linearGradient id="lumina-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="lumina-box" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="540" rx="36" fill="url(#lumina-bg)"/>
+  <g opacity="0.4">
+    <circle cx="540" cy="120" r="120" fill="#60a5fa"/>
+    <circle cx="540" cy="120" r="90" fill="#f0f9ff"/>
+  </g>
+  <rect x="180" y="140" width="220" height="280" rx="36" fill="url(#lumina-box)" opacity="0.85"/>
+  <rect x="240" y="120" width="220" height="280" rx="36" fill="#bae6fd" opacity="0.9"/>
+  <rect x="220" y="220" width="160" height="6" rx="3" fill="#0f172a" opacity="0.35"/>
+  <rect x="220" y="240" width="190" height="6" rx="3" fill="#0f172a" opacity="0.35"/>
+  <rect x="220" y="260" width="120" height="6" rx="3" fill="#0f172a" opacity="0.35"/>
+  <rect x="220" y="320" width="150" height="6" rx="3" fill="#0f172a" opacity="0.35"/>
+  <circle cx="300" cy="360" r="42" fill="#0f172a" opacity="0.5"/>
+  <circle cx="300" cy="360" r="26" fill="#f8fafc" opacity="0.8"/>
+  <circle cx="520" cy="380" r="90" fill="#1d4ed8" opacity="0.35"/>
+  <circle cx="520" cy="380" r="60" fill="#60a5fa" opacity="0.3"/>
+</svg>

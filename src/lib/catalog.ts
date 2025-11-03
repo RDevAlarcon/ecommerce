@@ -31,8 +31,7 @@ export const collections: Collection[] = [
     title: "Colección Artisan",
     description:
       "Piezas únicas trabajadas a mano con materiales reciclados y empaques neutros en carbono.",
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop",
+    image: "/images/collection-artisan.svg",
     accent: "from-blue-500/20 via-sky-500/10 to-transparent",
   },
   {
@@ -40,8 +39,7 @@ export const collections: Collection[] = [
     title: "Línea Signature",
     description:
       "Diseños minimalistas pensados para marcas premium que buscan diferenciarse sin sobrecargar.",
-    image:
-      "https://images.unsplash.com/photo-1539820586268-766867f43f58?q=80&w=800&auto=format&fit=crop",
+    image: "/images/collection-signature.svg",
     accent: "from-blue-300/25 via-cyan-400/15 to-transparent",
   },
   {
@@ -49,8 +47,7 @@ export const collections: Collection[] = [
     title: "Edición Cápsula",
     description:
       "Lanzamientos limitados con storytelling inmersivo y soporte creativo end-to-end.",
-    image:
-      "https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=800&auto=format&fit=crop",
+    image: "/images/collection-capsule.svg",
     accent: "from-indigo-500/25 via-blue-600/10 to-transparent",
   },
 ];
@@ -61,9 +58,8 @@ export const products: Product[] = [
     name: "Set Lumina",
     description:
       "Colección de packaging translúcido con acentos metálicos suavizados en degradé.",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop",
-    price: "320 €",
+    image: "/images/product-lumina.svg",
+    price: "320 EUR",
     category: "Packaging",
     colors: ["#1d4ed8", "#60a5fa", "#f0f9ff"],
     badge: "Más solicitado",
@@ -73,9 +69,8 @@ export const products: Product[] = [
     name: "Branding Atelier",
     description:
       "Sistema visual modular con retícula tipográfica y aplicación omnicanal.",
-    image:
-      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1200&auto=format&fit=crop",
-    price: "540 €",
+    image: "/images/product-atelier.svg",
+    price: "540 EUR",
     category: "Branding",
     colors: ["#0f172a", "#38bdf8", "#f8fafc"],
   },
@@ -84,9 +79,8 @@ export const products: Product[] = [
     name: "Editorial Noir",
     description:
       "Set editorial de 64 páginas con contrastes cromáticos y texturas táctiles.",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
-    price: "410 €",
+    image: "/images/product-noir.svg",
+    price: "410 EUR",
     category: "Editorial",
     colors: ["#020617", "#64748b", "#94a3b8"],
   },
@@ -95,9 +89,8 @@ export const products: Product[] = [
     name: "Experiencia Solstice",
     description:
       "Kits experiencia para eventos privados con diseño lumínico y menú interactivo.",
-    image:
-      "https://images.unsplash.com/photo-1454165205744-3b78555e5572?q=80&w=1200&auto=format&fit=crop",
-    price: "690 €",
+    image: "/images/product-solstice.svg",
+    price: "690 EUR",
     category: "Experience Design",
     colors: ["#1e293b", "#cbd5f5", "#f8fafc"],
   },
@@ -109,26 +102,23 @@ export const testimonials: Testimonial[] = [
     name: "Catalina Duarte",
     role: "Directora Creativa, Nébula Studio",
     quote:
-      "“El equipo de Aurelia comprende la visión a la primera. Nuestros lanzamientos siempre llegan con la narrativa y producción impecables.”",
-    avatar:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=200&auto=format&fit=crop",
+      '"El equipo de Aurelia comprende la visión a la primera. Nuestros lanzamientos siempre llegan con la narrativa y producción impecables."',
+    avatar: "/images/avatar-catalina.svg",
   },
   {
     id: "martin",
     name: "Martín Gallardo",
     role: "Fundador, Casa Brava",
     quote:
-      "“Lograron transformar nuestro catálogo en una vitrina premium. La atención al detalle y el soporte post entrega son sobresalientes.”",
-    avatar:
-      "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=200&auto=format&fit=crop",
+      '"Lograron transformar nuestro catálogo en una vitrina premium. La atención al detalle y el soporte post entrega son sobresalientes."',
+    avatar: "/images/avatar-martin.svg",
   },
   {
     id: "luisa",
     name: "Luisa Molina",
     role: "CMO, Selva Concept",
     quote:
-      "“Nuestros clientes quedaron fascinados con la experiencia digital inmersiva. Es una muestra perfecta para cerrar acuerdos.”",
-    avatar:
-      "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?q=80&w=200&auto=format&fit=crop",
+      '"Nuestros clientes quedaron fascinados con la experiencia digital inmersiva. Es una muestra perfecta para cerrar acuerdos."',
+    avatar: "/images/avatar-luisa.svg",
   },
 ];

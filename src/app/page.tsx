@@ -108,7 +108,7 @@ export default function Home() {
             <div className="relative w-full max-w-[520px] overflow-hidden rounded-3xl border border-white/10 bg-slate-900/50 shadow-2xl shadow-sky-500/10 backdrop-blur">
               <div className="absolute inset-0 bg-gradient-to-tr from-slate-900 via-transparent to-sky-500/20" />
               <Image
-                src="https://images.unsplash.com/photo-1525382455947-f319bc05fb39?q=80&w=1600&auto=format&fit=crop"
+                src="/images/hero-atelier.svg"
                 alt="Moodboard de branding premium"
                 width={960}
                 height={1200}

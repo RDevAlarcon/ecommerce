@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="signature-bg" x1="0" x2="1" y1="0" y2="0.9">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="signature-wave" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#a5f3fc" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="signature-line" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#cbd5f5" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#signature-bg)"/>
+  <path d="M0 360C120 260 220 320 320 280C420 240 520 120 640 160V480H0Z" fill="url(#signature-wave)" opacity="0.7"/>
+  <g fill="none" stroke="url(#signature-line)" stroke-width="1.4" opacity="0.6">
+    <path d="M120 120h400v240H120z"/>
+    <path d="M160 160h320v160H160z"/>
+    <path d="M200 200h240v80H200z"/>
+  </g>
+  <circle cx="460" cy="150" r="38" fill="#38bdf8" opacity="0.32"/>
+  <circle cx="200" cy="360" r="52" fill="#a5f3fc" opacity="0.18"/>
+</svg>

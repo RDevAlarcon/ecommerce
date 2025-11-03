@@ -17,12 +17,13 @@ npm run lint        # ejecuta ESLint 9 con eslint-config-next
 - `src/app/page.tsx`: layout principal de la vitrina digital (hero, colecciones, catálogo, testimonios y CTA).
 - `src/lib/catalog.ts`: datos tipados de colecciones, productos y testimonios listos para editar.
 - `src/app/globals.css`: estilos base y gradientes que definen el look & feel.
+- `public/images/*`: ilustraciones vectoriales incluidas por defecto para evitar dependencias externas.
 - `next.config.ts`: dominios externos de imágenes (Unsplash) para las visuales de referencia.
 
 ### Personalización
 
 1. Cambia textos y métricas en `src/app/page.tsx` para alinear la narrativa con tu marca.
-2. Actualiza imágenes o colores en `src/lib/catalog.ts`; cualquier link público compatible con Next Image funcionará.
+2. Actualiza imágenes o colores en `src/lib/catalog.ts`; puedes usar las ilustraciones locales en `public/images` o reemplazarlas por material propio.
 3. Ajusta tipografías o gradientes globales en `src/app/globals.css` según tu identidad visual.
 4. Ejecuta `npm run build && npm run start` para validar la versión optimizada antes de presentar.
 
